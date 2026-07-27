@@ -7,3 +7,11 @@ const addnum = (e) => {
     
 }
 addEventListener("click", addnum)
+
+
+let reset = document.querySelector("#reset")
+
+
+reset.addEventListener('click', ()=>{
+    count.textContent = 0
+})
