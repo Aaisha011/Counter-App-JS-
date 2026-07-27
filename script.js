@@ -1,5 +1,12 @@
-let add = document.getElementById('add')
+let sub = document.getElementById('sub')
 let count = document.getElementById('count')
+
+const subnum = (e) => {
+   count--
+
+}
+sub.addEventListener('click', subnum)
+let add = document.getElementById('add')
 
 const addnum = (e) => {
     e.preventDefault()
