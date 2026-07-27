@@ -10,7 +10,7 @@ let add = document.getElementById('add')
 
 const addnum = (e) => {
     e.preventDefault()
-    count.innerText = "1"
+    count_value++
     
 }
 addEventListener("click", addnum)
