@@ -6,7 +6,7 @@ let count = document.querySelector("#count")
 
 
 reset.addEventListener('click', ()=>{
-    count.innerText = count_value
+    count.textContent = count_value
 })
 
 
